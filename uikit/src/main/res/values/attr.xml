@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="separatorColor" format="reference|color" />
+    <attr name="overlayColor" format="reference|color" />
+
+    <!--    place your theme attributes here   -->
+
+</resources>

@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AdvancedUI DemoApp"
+include ':app'
+include ':uikit'
+include ':animatedlist'
+include ':animatedvector'
+include ':customdrawable'
+include ':interpolators'
+include ':animation'
+include ':transitions'
